@@ -1,0 +1,30 @@
+{
+  "name": "notification-mail-sms-service-malicknnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkerkeb-class/notification-mail-sms-service-MalicknND.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zkerkeb-class/notification-mail-sms-service-MalicknND/issues"
+  },
+  "homepage": "https://github.com/zkerkeb-class/notification-mail-sms-service-MalicknND#readme",
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
