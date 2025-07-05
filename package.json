@@ -1,11 +1,13 @@
 {
   "name": "notification-mail-sms-service-malicknnd",
   "version": "1.0.0",
-  "description": "",
+  "description": "Service de notifications par email pour l'écosystème Imagink",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "test": "node test-mvp.js",
+    "test:health": "node -e \"require('./test-mvp.js').testHealth()\""
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,7 @@
   },
   "homepage": "https://github.com/zkerkeb-class/notification-mail-sms-service-MalicknND#readme",
   "dependencies": {
+    "axios": "^1.10.0",
     "dotenv": "^17.0.1",
     "express": "^5.1.0",
     "nodemailer": "^7.0.4"
